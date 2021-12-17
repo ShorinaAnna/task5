@@ -33,3 +33,8 @@ jobs:
       with:
         path: build/libs
         name: task
+    - name: tests
+      uses: actions/upload-artifact@v2
+      with:
+        path: build/reports/tests/test
+        name: test
