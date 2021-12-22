@@ -7,7 +7,9 @@ public class Main {
     
     public static void main(String[] args)  {
         System.out.println(2+2);
-
+        double degree =3.0;
+        double n = 1.0/degree; System.out.println(n);
+        System.out.println( (double) Math.round(Math.pow(125, n)));
         /*int u=1;
         ArrayList listOfTeacher=new ArrayList();
         ArrayList listOfGR=new ArrayList();
@@ -67,7 +69,7 @@ public class Main {
             }
            
         }*/
-        /*
+/*
         Student st1=new Student();
         st1.tech=new GoogleClass();
         st1.tech.sendQuestion();
@@ -79,21 +81,21 @@ public class Main {
         st3.tech.sendQuestion();
         st3.chk=new BB();
         st3.chk.passCheck();
-        */
-        /*
+*/
+
         Printer myprinter = new Printer();
-        Student st1=new Student();
+        Student st1 =new Student();
         st1.setFIO("Shorina", "Anna", "Alekseevna");
         st1.setEmail("anna@");
         st1.setPerTelNumber("89072580");
         myprinter.printToScreen(st1);
-        Student st2=new Student();
+        Student st2 =new Student();
         st2.setFIO("Titarenko", "Polina", "Evgenevna");
         st2.setEmail("poly@");
         st2.setPerTelNumber("3247516");
         myprinter.printToScreen(st2);
-        */
-        /*
+
+
         Printer myprinter2 = new Printer();
         Teacher tch1=new Teacher();
         tch1.setFIO("Shorina", "Natalia", "Alekseevna");
@@ -101,11 +103,11 @@ public class Main {
         tch1.setTelNumber("173250");
         tch1.setSubject("math");
         myprinter2.printToScreen(tch1);
-        */
-        /*Group g=new Group();
+
+        Group g=new Group();
         g.listOfGroup.add(st1);
         g.listOfGroup.add(st2);
-        g.printListGroup();*/
+        g.printListGroup();
        
         
     }
